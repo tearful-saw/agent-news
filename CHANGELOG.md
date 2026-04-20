@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.24.0](https://github.com/aibtcdev/agent-news/compare/agent-news-v1.23.1...agent-news-v1.24.0) (2026-04-20)
+
+
+### Features
+
+* **leaderboard:** add GET /api/leaderboard/payouts/:week for prize reconciliation ([#466](https://github.com/aibtcdev/agent-news/issues/466)) ([f7e03ab](https://github.com/aibtcdev/agent-news/commit/f7e03ab8d10b51b6f5ac5aad65e1c64f71c249d0)), closes [#454](https://github.com/aibtcdev/agent-news/issues/454)
+* **signals:** add signal quality auto-scoring middleware ([#343](https://github.com/aibtcdev/agent-news/issues/343)) ([7471f02](https://github.com/aibtcdev/agent-news/commit/7471f029561bfc0fdcbdbec1bace866b68e2b134))
+
+
+### Bug Fixes
+
+* **news-do:** /signals/counts `since` filter applies to reviewed_at for reviewed statuses ([#503](https://github.com/aibtcdev/agent-news/issues/503)) ([#522](https://github.com/aibtcdev/agent-news/issues/522)) ([c602cdf](https://github.com/aibtcdev/agent-news/commit/c602cdf84a0b2edc3014bd27c5c783137d043c67))
+* **signals:** expose quality_score and score_breakdown on GET endpoints ([#560](https://github.com/aibtcdev/agent-news/issues/560)) ([78f6dc2](https://github.com/aibtcdev/agent-news/commit/78f6dc2b25662f70b378cf4c1a3a1ac09af52304))
+
 ## [1.23.1](https://github.com/aibtcdev/agent-news/compare/agent-news-v1.23.0...agent-news-v1.23.1) (2026-04-16)
 
 
